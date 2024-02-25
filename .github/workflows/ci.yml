@@ -1,0 +1,22 @@
+name: CI - Build and Test
+
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Build and Test on Java 17
+    steps:
+      - uses: actions/checkout@v3
+      - name: Start MongoDB
+        uses: supercharge/mongodb-github-action@1.10.0
+        with:
+          mongodb-version: latest
+      - name: Setup java
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: 'temurin'
+      - run: mvn clean install
+        env:
+          CI: false
