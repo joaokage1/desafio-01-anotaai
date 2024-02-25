@@ -32,3 +32,25 @@ build/
 ### VS Code ###
 .vscode/
 /database-mongo-local-files/
+/database-mongo-local-files/diagnostic.data/
+/database-mongo-local-files/journal/
+/database-mongo-local-files/_mdb_catalog.wt
+/database-mongo-local-files/collection-0-3327269123217414620.wt
+/database-mongo-local-files/collection-0--4963417634853685704.wt
+/database-mongo-local-files/collection-2-3327269123217414620.wt
+/database-mongo-local-files/collection-2--4963417634853685704.wt
+/database-mongo-local-files/collection-4--4963417634853685704.wt
+/database-mongo-local-files/index-1-3327269123217414620.wt
+/database-mongo-local-files/index-1--4963417634853685704.wt
+/database-mongo-local-files/index-3-3327269123217414620.wt
+/database-mongo-local-files/index-3--4963417634853685704.wt
+/database-mongo-local-files/index-5--4963417634853685704.wt
+/database-mongo-local-files/index-6--4963417634853685704.wt
+/database-mongo-local-files/mongod.lock
+/database-mongo-local-files/sizeStorer.wt
+/database-mongo-local-files/storage.bson
+/database-mongo-local-files/WiredTiger
+/database-mongo-local-files/WiredTiger.lock
+/database-mongo-local-files/WiredTiger.turtle
+/database-mongo-local-files/WiredTiger.wt
+/database-mongo-local-files/WiredTigerHS.wt
